@@ -1,0 +1,77 @@
+/* Add.css */
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-productname,
+  .add-productdescription,
+  .add-category,
+  .add-product-price,
+  .add-img-upload {
+    margin-bottom: 20px;
+  }
+  
+  .add-productname p,
+  .add-productdescription p,
+  .add-category p,
+  .add-product-price p,
+  .add-img-upload p {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  textarea,
+  select,
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .add-img-upload img {
+    width: 100%;
+    max-width: 150px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .AddButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .AddButton:hover {
+    background-color: #0056b3;
+  }
+  

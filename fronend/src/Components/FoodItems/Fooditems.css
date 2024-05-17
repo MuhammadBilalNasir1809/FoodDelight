@@ -1,0 +1,83 @@
+.Food-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .food-item-image {
+    position: relative;
+  }
+  .food-item-image .add{
+    cursor: pointer;
+    width:35px;
+    bottom:15px;
+    right:15px;
+    border-radius: 50%;
+
+  }
+  
+.food-item-counter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .food-item-counter img {
+    cursor: pointer;
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+  }
+  
+  .food-item-counter p {
+    margin: 0 10px; /* Adjust margin as needed */
+    font-weight: bold;
+  }
+  
+  
+  .food-item-image img {
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .food-item-info {
+    padding: 15px;
+    display: flex; /* Add flex display to align items */
+    flex-direction: column; /* Align items in a column */
+    justify-content: center; /* Center content vertically */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .food-item-rating {
+    margin-top: 10px; /* Add margin to separate from description */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .food-item-rating p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .food-item-rating img {
+    width: 80px;
+    margin-right: 70px;
+  }
+  
+  .food-item-description {
+    margin-top: 10px;
+    color: #555;
+    margin-right: 90px;
+  }
+  
+  .food-item-price {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff0000;
+  }
+  

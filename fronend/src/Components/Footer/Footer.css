@@ -1,0 +1,67 @@
+/* Footer.css */
+
+.Footer {
+    background-color: #373535; /* Light gray background */
+    padding: 40px 20px; /* Padding for content inside */
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    gap: 180px;
+  }
+  
+  .footer-content-left {
+    flex: 1;
+  }
+  
+  .footer-content-left img {
+    margin-right: 10px; /* Space between social icons */
+  }
+  
+  .footer-content-center,
+  .footer-content-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer-content-center h2,
+  .footer-content-right h2 {
+    font-size: 18px; /* Heading font size */
+    margin-bottom: 10px; /* Space below heading */
+  }
+  
+  .footer-content-center ul,
+  .footer-content-right ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0;
+  }
+  
+  .footer-content-center ul li,
+  .footer-content-right ul li {
+    margin-bottom: 8px; /* Space between list items */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+    display: inline-block; /* Display list items in a row */
+    margin-right: 10px; /* Space between list items */
+  }
+  
+  .footer-content-center ul li:hover,
+  .footer-content-right ul li:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .CopyRight {
+    margin-top: 20px; /* Space above copyright text */
+    text-align: center; /* Center-align text */
+    font-size: 14px; /* Font size for copyright text */
+    color: #666; /* Light gray text color */
+  }

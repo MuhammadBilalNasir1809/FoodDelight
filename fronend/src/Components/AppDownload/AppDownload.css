@@ -1,0 +1,32 @@
+/* AppDownload.css */
+
+.app-download {
+    text-align: center; /* Center-align content */
+    margin-bottom: 40px; /* Space at the bottom */
+  }
+  
+  .app-download h2 {
+    font-size: 24px; /* Heading font size */
+    margin-bottom: 0px; /* Space below heading */
+    color: #333; /* Text color */
+  }
+  
+  .row1{
+    border-bottom: 5px solid black;
+    border-radius: 10px;
+    width: 140px;
+    margin-left: 720px;
+    margin-bottom: 30px;
+  }
+  
+  .app-download-plateform {
+    display: flex;
+    justify-content: center; /* Center-align child elements horizontally */
+    gap: 20px; /* Space between images */
+  }
+  
+  .app-download-plateform img {
+    width: 150px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

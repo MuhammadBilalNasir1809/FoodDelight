@@ -1,0 +1,112 @@
+/* Navbar.css */
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  height: 50px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-menu li {
+  margin: 0 15px; /* Adjust spacing between menu items */
+  cursor: pointer;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #333333; /* Dark grey text color */
+}
+
+.navbar-menu li.active {
+  font-weight: bold;
+  color: #007bff; /* Blue color for active menu item */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-search-icon {
+  margin-right: 20px; /* Adjust spacing between search icon and cart icon */
+  cursor: pointer;
+}
+
+.navbar-cart-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar-cart-icon img {
+  height: 24px;
+}
+
+.dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red; /* Red dot for indicating items in the cart */
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.navbar-profile-dropdown {
+  position: relative;
+}
+
+.profile-icon {
+  margin-right: 20px; /* Adjust spacing between profile icon and dropdown */
+  cursor: pointer;
+}
+
+.nav-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  display: none;
+  z-index: 1000;
+}
+
+.navbar-profile-dropdown:hover .nav-dropdown {
+  display: block;
+}
+
+.nav-dropdown li {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.nav-dropdown li img {
+  height: 20px;
+  margin-right: 10px; /* Adjust spacing between icon and text */
+}
+
+.nav-dropdown hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #eeeeee; /* Light grey separator line */
+}

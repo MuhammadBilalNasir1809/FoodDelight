@@ -1,0 +1,43 @@
+.Header {
+    height:600px; /* Adjust height as needed */
+    width: 1400px;
+    margin: 35px auto;
+    background-image: url('/header_img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; /* Add left padding for text and button alignment */
+  }
+  
+  .header-contents {
+    text-align: left; /* Align text to the left */
+    color: #fcfbfb;
+    margin-left: 50px;
+  }
+  
+  .header-contents h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .header-contents p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto 20px;
+  }
+  
+  .header-contents button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header-contents button:hover {
+    background-color: #e15757;
+  }
+  

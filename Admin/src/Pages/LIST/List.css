@@ -1,0 +1,59 @@
+/* List.css */
+.list {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .list p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .list-table-format {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 100px 100px;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .list-table-format.header {
+    font-weight: bold;
+    background-color: #f4f4f4;
+  }
+  
+  .list-table-format img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .list-table-format p {
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .list-table-format button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-table-format button:hover {
+    background-color: #ff1a1a;
+  }
+  
